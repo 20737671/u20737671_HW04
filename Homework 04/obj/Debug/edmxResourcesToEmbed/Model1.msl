@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCCRUDDGModelStoreContainer" CdmEntityContainer="MVCCRUDDGContext">
+    <EntitySetMapping Name="Reducs">
+      <EntityTypeMapping TypeName="MVCCRUDDGModel.Reduc">
+        <MappingFragment StoreEntitySet="Reduc">
+          <ScalarProperty Name="WeekNum" ColumnName="WeekNum" />
+          <ScalarProperty Name="KiloNotRecycled" ColumnName="KiloNotRecycled" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
